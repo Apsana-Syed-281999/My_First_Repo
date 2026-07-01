@@ -1,0 +1,21 @@
+Todays Tasks:
+
+
+Task-1:
+Lets assume that you have 2 files (aws and azure) and 1 folder (devops). Now how to copy those 2 files into a folder at a time
+cp aws azure devops
+
+Task-2:
+Lets assume that you have 3 files (file1, file2 and file3), file1 has data. Now how to copy the data from file1 to file2 and file3 at a time.
+cat file1 | tee -a file2 file3   ->> by sir
+cp file1 file2 && cp file1 file3  --> own
+cat file1 >> file2 && cat file1 >> file3   --> own
+
+Task-3:
+Lets assume that you have 2 folders (folder1 and folder2). Folder1 has some files(aws, azure & gcp). Now how to copy all files from folder1 to folder2
+cp folder1/* folder2
+
+Task-4:
+Create any python file and add some basic python code and allow X permissions to that file.
+chmod 755 Python.py
+
