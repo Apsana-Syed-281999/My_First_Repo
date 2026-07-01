@@ -1,7 +1,13 @@
+Why the option of creating server with no "Key pair" exists if it's not recommened. an example where Server are created with no Key pair.
+My putty keeps disconnecting from Server if I don't use. What to do?
+After connecting the server how to disconnect
+All the files and folders that we created in putty, where can we see them?
+linux -> permission topic -> chmod +x Filename , as per trainer only +x works, but for me both +x and +r works, however +w doesn't work
+git -> stash
 First changes from Devopsuser
-pip install pyinstaller
-pyinstaller ^
-  --onefile --noconsole ^
-  --name "DBC_Signal_Plotter" ^
-  --hidden-import "matplotlib.backends.backend_qt5agg" ^
-   --hidden-import "cantools.database" ^
+  2 pip install pyinstaller
+  3 pyinstaller ^
+  4   --onefile --noconsole ^
+  5   --name "DBC_Signal_Plotter" ^
+  6   --hidden-import "matplotlib.backends.backend_qt5agg" ^
+  7    --hidden-import "cantools.database" 
