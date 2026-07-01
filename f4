@@ -1,8 +1,0 @@
-
-GIT RESET: This command is used to delete latest commits
-git reset --hard HEAD~1 : used to delete latest commit along with changes
-git reset --soft HEAD~1 : used to delete only latest commit 
-git update-ref -d HEAD: used to delete all commits at a time (only commits)
-writing something
-Just adding to check git fetch
-Another line
