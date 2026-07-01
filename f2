@@ -1,0 +1,7 @@
+First changes from Devopsuser
+pip install pyinstaller
+pyinstaller ^
+  --onefile --noconsole ^
+  --name "DBC_Signal_Plotter" ^
+  --hidden-import "matplotlib.backends.backend_qt5agg" ^
+   --hidden-import "cantools.database" ^
